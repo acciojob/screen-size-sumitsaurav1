@@ -1,9 +1,8 @@
 //your JS code here. If required.
-let height = document.getElementById("width");
-let width = document.getElementById("height")
+let sizeinfo = document.getElementById("sizeinfo");
+
 
 
 window.addEventListener('resize',(e)=>{
-    width.innerHTML=window.innerWidth;
-    height.innerText=window.innerWidth;
+    sizeinfo.innerText=`Width: ${window.innerWidth} Height: ${window.innerHeight} `
 })
