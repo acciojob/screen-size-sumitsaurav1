@@ -4,5 +4,5 @@ let sizeinfo = document.getElementById("sizeinfo");
 
 
 window.addEventListener('resize',(e)=>{
-    sizeinfo.innerText=`Width: ${window.innerWidth} Height: ${window.innerHeight} `
+    sizeinfo.innerText=`Width: ${window.innerWidth} and Height: ${window.innerHeight} `
 })
